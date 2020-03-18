@@ -22,7 +22,7 @@ floors = 11
 def add_stairsA(floors, stairwell):
     
     for i in range(floors):
-        if (i > 1):
+        if (i > 2):
             name = ''
             stairs = 'SW' + stairwell
             level = ''
@@ -101,7 +101,6 @@ G.add_node('TRNC')
 G.add_node('EXIT')
 
 # Edges
-
 G.add_edge('WC11', 'HC11', capacity=7)
 G.add_edge('LEL9', 'DUMMY', capacity=32)
 G.add_edge('LEL5', 'DUMMY', capacity=32)
